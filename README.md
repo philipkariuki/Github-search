@@ -5,19 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #### By **Philip Kariuki**
 ## Description
 ##### Week 2 IP for Moringa Core 18: Github Search
-The project entails creating an application where users can create quotes and have those quotes voted on.
-* As a user, I want to create a new quote.
-* As a user, I want upvote or downvote a quote.
-* As a user, I want to delete a quote.
-* As a user, I want to see the number of upvotes and number of downvotes for each quote.
+The project entails creating an Angular application where users can search for public Github repositories by entering a Github username.
 
 ## BDD
 | Behaviour     | Input         | Output        |
 | ------------- | ------------- | ------------- |
-| New Quote  | Fills form  | Shows new quote  |
-| Display quote details  | Clicks Details button  | Displays Author and Submitted by  |
-| Delete quote     | Click delete button     | Selected quote is deleted        |
-
+| Search User  | Types Github user name  | Shows user Git info  |
 ## Setup/Installation Requirements
 * NodeJs version 10 and above.
 * Angular cli version 6.
@@ -26,8 +19,7 @@ The project entails creating an application where users can create quotes and ha
 * IDE prefereably Visual Studio Code.
 * A web browser.
 * A working internet connection.
-## Known Bugs
-Upvote functionality still missing.
+
 ## Languages Used
 Angularv2, HTML, CSS, and TypeScript have been used on this project.
 ## Contributors
@@ -60,6 +52,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Support and contact details
 To support me, you can contact me @<a href="https://www.gmail.com">philippokar@hotmail.co.uk</a>
 ## Link to project
-https://philipkariuki.github.io/quotes-angular/
-## [License](https://github.com/philipkariuki/pigdice/blob/master/LICENSE)
+https://philipkariuki.github.io/Github-search/
+## [License](https://github.com/philipkariuki/Github-search/blob/master/LICENSE)
 MIT © 2019 [philipkariuki](https://github.com/philipkariuki)
