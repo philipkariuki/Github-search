@@ -8,13 +8,15 @@ import { RepositoryComponent } from './repository/repository.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     RepositoryComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
