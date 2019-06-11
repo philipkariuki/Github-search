@@ -9,6 +9,10 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { HomeComponent } from './home/home.component';
+
+import {RoutingModule} from './routing/routing.module';
+import { AboutComponent } from './about/about.component'
 
 @NgModule({
   declarations: [
@@ -16,11 +20,14 @@ import { NotfoundComponent } from './notfound/notfound.component';
     UserComponent,
     RepositoryComponent,
     SearchFormComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    RoutingModule,
     ReactiveFormsModule
   ],
   providers: [GitserviceService],
