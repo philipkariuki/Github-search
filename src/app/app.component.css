@@ -1,77 +1,24 @@
-body {
-  background-color: #ecf0f1;
-  height: 100%;
-}
-
-.navbar-default {
-  max-height: 40px;
-  background-color: #2980b9 !important;
-  border-color: #2980b9;
-  color: #ecf0f1;
-}
-
-.navbar-right {
-  float: right;
-}
-
-.navbar-default .navbar-brand {
-  color: #ecf0f1 !important;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #ecf0f1 !important;
-}
-
-
-.col-xs-6 {
-  float: none !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-  margin-bottom: 20px;
-}
-
-.btn-group-wrap {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 45px;
-}
-
-div.btn-group {
-  margin: 0 auto;
-  text-align: center;
-  width: inherit;
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-.btn-primary {
-  color: #ecf0f1 !important;
-  background-color: #2980b9 !important;
-  border-color: #2980b9 !important;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
   background-color: #534444;
 }
+
+#foot1 {
+  float: left;
+  margin-left: 170px;
+}
+
 #foot2 {
-float: right;
+  float: right;
+  margin-right: 170px;
 }
 
-.footer-text {
-  color: white;
+.footer-text a {
+  color: lightgreen;
 }
-
-
