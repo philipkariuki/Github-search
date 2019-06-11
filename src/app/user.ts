@@ -6,5 +6,8 @@ export class User {
   bio: string;
   public_repos: string;
   public_gists: string;
+  html_url: string;
+  name: string;
+  followers: string;
 
 }
